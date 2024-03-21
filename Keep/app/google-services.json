@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "276934327089",
+    "firebase_url": "https://keep-app-28cfd-default-rtdb.firebaseio.com",
+    "project_id": "keep-app-28cfd",
+    "storage_bucket": "keep-app-28cfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276934327089:android:981bb4ede3e6a2478f4e10",
+        "android_client_info": {
+          "package_name": "com.example.keep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrYwPn3TAJ0M1RB18xqiq2X4ptOIuLIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

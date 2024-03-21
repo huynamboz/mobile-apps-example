@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- secondscreen colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="_bg__secondscreen_color">#FFFFFF</color>
+	<color name="_bg__send_icon_ek1_color">#000000</color>
+	<color name="rectangle_32_color">#1D1D1D</color>
+	<color name="overview_color">#1B1B1B</color>
+	<color name="south__america_color">#C9C8C8</color>
+	<color name="this_vast_mountain_range_is_renowned_for_its_remarkable_diversity_in_terms_of_topography_and_climate__it_features_towering_peaks__active_volcanoes__deep_canyons__expansive_plateaus__and_lush_valleys__the_andes_are_also_home_to_color">#000000</color>
+	<color name="rectangle_85_color">#ECECEC</color>
+	<color name="_16_c_color">#7E7E7E</color>
+</resources>

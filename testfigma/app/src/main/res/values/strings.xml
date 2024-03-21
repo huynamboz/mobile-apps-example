@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- secondscreen strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="book_now_string">Book Now</string>
+	<string name="andes_mountain_string">Andes Mountain</string>
+	<string name="overview_string">Overview</string>
+	<string name="south__america_string">South, America</string>
+	<string name="details_string">Details</string>
+	<string name="price_string">Price</string>
+	<string name="this_vast_mountain_range_is_renowned_for_its_remarkable_diversity_in_terms_of_topography_and_climate__it_features_towering_peaks__active_volcanoes__deep_canyons__expansive_plateaus__and_lush_valleys__the_andes_are_also_home_to_string">This vast mountain range is renowned for its remarkable diversity in terms of topography and climate. It features towering peaks, active volcanoes, deep canyons, expansive plateaus, and lush valleys. The Andes are also home to </string>
+	<string name="__230_string">$230</string>
+	<string name="_16_c_string">16  C</string>
+	<string name="o_string">o</string>
+	<string name="_4_5_string">4.5</string>
+	<string name="_8_hours_string">8 hours</string>
+</resources>
