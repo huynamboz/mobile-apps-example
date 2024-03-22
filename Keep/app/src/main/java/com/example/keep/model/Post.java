@@ -1,22 +1,43 @@
 package com.example.keep.model;
 
 public class Post {
-    private String author;
+    private String id;
+    private String title;
 
-
+    private String color;
 
     private String content;
-    public Post(String author, String content) {
-        this.author = author;
+    public Post(){}
+
+    public Post(String id, String title, String content, String color) {
+        this.id = id;
+        this.title = title;
+        this.color = color;
         this.content = content;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getId() {
+        return id;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String getContent() {
