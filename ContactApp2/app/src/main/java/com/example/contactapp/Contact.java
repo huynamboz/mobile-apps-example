@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @Entity
 public class Contact implements Serializable {
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     private int id;
     @ColumnInfo
     private String name;

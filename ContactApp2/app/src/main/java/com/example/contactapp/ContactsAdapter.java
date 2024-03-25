@@ -20,14 +20,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder>{
-    private ArrayList<Contact> contactList;
+    private List<Contact> contactList;
     private IClickItemContact iClickItemContact;
-
+    public void setData(List<Contact> list) {
+        this.contactList = list;
+        notifyDataSetChanged();
+    }
 
     public interface IClickItemContact {
         void updateContact(Contact contact);
     }
-    public ContactsAdapter(ArrayList<Contact> contactList, IClickItemContact iClickItemContact) {
+    public ContactsAdapter(List<Contact> contactList, IClickItemContact iClickItemContact) {
         this.contactList = contactList;
         this.iClickItemContact = iClickItemContact;
     }
@@ -63,14 +66,6 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
 
         }
 
-        private void clickUpdateContact(View v, Contact contact) {
-            Intent intent = new Intent(v.getContext(), UpdateActivity.class);
-            Bundle bundle = new Bundle();
-            bundle.putSerializable("contact", contact);
-            intent.putExtras(bundle);
-            startActivityForResult(intent, MY_REQUEST_CODE);
-        }
-
         private void startActivityForResult(Intent intent, int myRequestCode) {
         }
     }
@@ -79,7 +74,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
     public void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull List<Object> payloads) {
         super.onBindViewHolder(holder, position, payloads);
         Contact contact = contactList.get(position);
-        holder.btnEdit.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 iClickItemContact.updateContact(contact);
